@@ -1,0 +1,89 @@
+{
+  "source": "Reanalysis of the explicitly supplied CSV files; inspect their provenance.",
+  "inputs": [
+    {
+      "name": "doppler-broadened_20251112_171638_HighRes.csv",
+      "sha256": "15e85965c3546e563c856b7f006f6c9a38c17296cf621780031201aac942e54d"
+    },
+    {
+      "name": "doppler-broadened_20251112_172148_HighRes.csv",
+      "sha256": "78fdaae3d62fcae0cd3af2e467e3b1cf2400df7bb7500534c5898e20f367673f"
+    }
+  ],
+  "config": {
+    "signal_file": "data/measurements/doppler-broadened_20251112_171638_HighRes.csv",
+    "background_file": "data/measurements/doppler-broadened_20251112_172148_HighRes.csv",
+    "header_rows": 10,
+    "channel": "chA",
+    "window_ms": [
+      130.0,
+      160.0
+    ],
+    "exclude_ms": [
+      145.0,
+      150.0
+    ],
+    "fit_window_ms": [
+      146.0,
+      147.5
+    ],
+    "polarity": "peak",
+    "calibration": {
+      "mhz_per_ms": null,
+      "source": ""
+    }
+  },
+  "background": {
+    "scale": 1.0360302745020102,
+    "offset_V": 0.09343139225214706,
+    "baseline_points": 4085
+  },
+  "fits": {
+    "gaussian": {
+      "amplitude_V": 0.012353036635549647,
+      "center_ms": 147.34389499335106,
+      "fwhm_ms": 0.84523271087797,
+      "offset_V": 0.012311057396336462,
+      "rss_V2": 6.105122844254565e-05,
+      "conditional_standard_errors": {
+        "amplitude_V": 8.843324348326167e-05,
+        "center_ms": 0.006228578895019709,
+        "fwhm_ms": 0.014472803738155692,
+        "offset_V": 6.475874598989185e-05
+      },
+      "full_fwhm_covered": false,
+      "warnings": [
+        "The selected window does not span both fitted half-maximum positions; width depends on model extrapolation."
+      ],
+      "fwhm_MHz": null
+    },
+    "lorentzian": {
+      "amplitude_V": 0.014718774601812657,
+      "center_ms": 147.31999344140175,
+      "fwhm_ms": 0.8605030251428322,
+      "offset_V": 0.010286877412125,
+      "rss_V2": 3.678211673355164e-05,
+      "conditional_standard_errors": {
+        "amplitude_V": 8.73813617584104e-05,
+        "center_ms": 0.0032541161356916806,
+        "fwhm_ms": 0.013991305251836613,
+        "offset_V": 8.752048291543137e-05
+      },
+      "full_fwhm_covered": false,
+      "warnings": [
+        "The selected window does not span both fitted half-maximum positions; width depends on model extrapolation."
+      ],
+      "fwhm_MHz": null
+    }
+  },
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "matplotlib": "3.10.8"
+  },
+  "lower_rss_model": "lorentzian",
+  "calibration_status": "not supplied; widths in ms only",
+  "uncertainty_note": "Standard errors are conditional residual-scaled curve-fit covariance estimates. Background, calibration, correlated noise and model uncertainty are not propagated.",
+  "comparison_note": "Lower RSS compares these models on the same points; it does not establish the physical line shape."
+}

@@ -1,0 +1,8 @@
+# Suggested shared toolkit; original lab programs have not yet been imported.
+# Record tested versions for each project after running its original analysis.
+numpy
+scipy
+pandas
+matplotlib
+Pillow
+jupyterlab

@@ -1,0 +1,29 @@
+{
+  "status": "Frequency calibration not verified",
+  "settings": {
+    "waveform": "symmetric ramp",
+    "frequency_Hz": 10,
+    "amplitude_Vpp": 0.09,
+    "nominal_ramp_magnitude_V_per_ms": 0.0018
+  },
+  "output1_linear_fits": [
+    {
+      "capture": "171638",
+      "output1_slope_V_per_ms": -0.0018000076261388358,
+      "linear_fit_residual_rms_V": 9.631523588699845e-06
+    },
+    {
+      "capture": "172148",
+      "output1_slope_V_per_ms": -0.0018000031713780746,
+      "linear_fit_residual_rms_V": 9.628483235545515e-06
+    }
+  ],
+  "conditional_example": {
+    "assumption": "ONLY IF the historical coefficient 33609 means MHz/V and applies to this drive/setup",
+    "coefficient_MHz_per_V": 33609,
+    "nominal_magnitude_MHz_per_ms": 60.4962,
+    "gaussian_width_MHz_conditional": 51.13336712381585,
+    "lorentzian_width_MHz_conditional": 52.0571631096458
+  },
+  "needed": "Original etalon calibration and voltage-path definition; uncertainty estimate."
+}

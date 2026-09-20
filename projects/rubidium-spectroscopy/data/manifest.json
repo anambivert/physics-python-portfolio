@@ -1,0 +1,105 @@
+{
+  "source": "User-supplied Moku:Lab exports from 2025-11-12; copied without modification.",
+  "files": [
+    {
+      "file": "doppler-broadened_20251112_153645_HighRes.csv",
+      "bytes": 890378,
+      "sha256": "5c0fa60b8c7dde2f1e7ed579f56a5a5a894f194ec5b79e531675177a5147c000"
+    },
+    {
+      "file": "doppler-broadened_20251112_153645_Screenshot.png",
+      "bytes": 115625,
+      "sha256": "ad0173573dbec8b8aafc51504054cb86d6c536bcc25a1731cf99ad69ba7203b5"
+    },
+    {
+      "file": "doppler-broadened_20251112_153645_Settings.txt",
+      "bytes": 660,
+      "sha256": "6b308da7fa69491b5a619501be02486d4c13a0e198215e2ab04786f07cdbe4a5"
+    },
+    {
+      "file": "doppler-broadened_20251112_153645_Traces.csv",
+      "bytes": 49325,
+      "sha256": "e69d0a5e57b07586f788d7e6cfcf6c90e95ecd6fbdcfe1e431825432996c4ff1"
+    },
+    {
+      "file": "doppler-broadened_20251112_171638_HighRes.csv",
+      "bytes": 882009,
+      "sha256": "15e85965c3546e563c856b7f006f6c9a38c17296cf621780031201aac942e54d"
+    },
+    {
+      "file": "doppler-broadened_20251112_171638_Screenshot.png",
+      "bytes": 103795,
+      "sha256": "5ac66f9af356bf53bb176abc1a6c7a253315d886a7054fcc1033b71db651fa9c"
+    },
+    {
+      "file": "doppler-broadened_20251112_171638_Settings.txt",
+      "bytes": 659,
+      "sha256": "46766bc36d9206f35d31fb630706cdb5ab30fdd29a746317812a6f750ea5b108"
+    },
+    {
+      "file": "doppler-broadened_20251112_171638_Traces.csv",
+      "bytes": 48868,
+      "sha256": "9c922a489fcffcfe1e6fcb0d404f6a524501046e1f31827321816c7051deba3d"
+    },
+    {
+      "file": "doppler-broadened_20251112_172148_HighRes.csv",
+      "bytes": 882009,
+      "sha256": "78fdaae3d62fcae0cd3af2e467e3b1cf2400df7bb7500534c5898e20f367673f"
+    },
+    {
+      "file": "doppler-broadened_20251112_172148_Screenshot.png",
+      "bytes": 107267,
+      "sha256": "040448fc3a2fb07165cf2e0a64791e73305453ce67dc53cbc849946c9e1bde04"
+    },
+    {
+      "file": "doppler-broadened_20251112_172148_Settings.txt",
+      "bytes": 659,
+      "sha256": "c2c6b5c340ca5e7ece8b93f60c16355639c926e51a3caf1cef91b10a4dedc54b"
+    },
+    {
+      "file": "doppler-broadened_20251112_172148_Traces.csv",
+      "bytes": 48868,
+      "sha256": "5ea39625a560325f5c17baf106d7488c5dbe38140496c4601b61f19ee39c36af"
+    },
+    {
+      "file": "doppler-broadened_20251112_172919_HighRes.csv",
+      "bytes": 899506,
+      "sha256": "8ae242840de3004176ecdcffef82d105b3ead42473a7afc1916ebbee1beb43d4"
+    },
+    {
+      "file": "doppler-broadened_20251112_172919_Screenshot.png",
+      "bytes": 87706,
+      "sha256": "068ce7d9a857f8e61320d39b6ed85925b7e8210e27bca770e7ff1e2c2d2f361d"
+    },
+    {
+      "file": "doppler-broadened_20251112_172919_Settings.txt",
+      "bytes": 662,
+      "sha256": "4fb284c2de41b443de1e089ad23cca4414f463a304e8c9ecf8c7ecd739790d17"
+    },
+    {
+      "file": "doppler-broadened_20251112_172919_Traces.csv",
+      "bytes": 49905,
+      "sha256": "3fddd7b0648c3cc3e9f32ca3165e7af841376bff25278f67ddfa3c21ba9e9513"
+    },
+    {
+      "file": "doppler-broadened_20251112_173010_HighRes.csv",
+      "bytes": 899662,
+      "sha256": "d795f3e82d02b3a96e2ff8db900d0a3811acbacb0baabc27d0f1578721e47d6a"
+    },
+    {
+      "file": "doppler-broadened_20251112_173010_Screenshot.png",
+      "bytes": 96191,
+      "sha256": "21f5c730b22202bbf3d869a7174b8ffe3b10acf5652b3f8cfdcc20ecca1bb3be"
+    },
+    {
+      "file": "doppler-broadened_20251112_173010_Settings.txt",
+      "bytes": 663,
+      "sha256": "4cdcb37e29b06f492d3e0680d75218a05670e1b91cd86ae86844df03724b0392"
+    },
+    {
+      "file": "doppler-broadened_20251112_173010_Traces.csv",
+      "bytes": 49918,
+      "sha256": "080edf10306d21d598e8c5e0fddc56bdbf819e82d6e8102fd4e1deca7a8cacb7"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "original_notebook": {
+    "uploaded_name": "Code for LAB 6.ipynb",
+    "sha256": "68b3fa616e20915fefc0c9b211c6cb5fd18538ec08663587843a8d81d129775a"
+  },
+  "original_report": {
+    "uploaded_name": "Lab 06- Doppler Free Spectroscopy (1).pdf",
+    "sha256": "ee66d33fe959acb6778b7437855a79dade4787346ace9b93ec9fbcbbcdbcbe9f"
+  },
+  "notebook_changes": [
+    "Added archive/calibration/authorship introduction",
+    "Replaced two machine-specific input paths",
+    "Shortened one cached output file path"
+  ],
+  "saved_outputs_reexecuted_in_archive": false,
+  "raw_files": "data/manifest.json"
+}

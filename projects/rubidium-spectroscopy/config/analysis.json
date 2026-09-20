@@ -1,0 +1,23 @@
+{
+  "signal_file": "data/measurements/doppler-broadened_20251112_171638_HighRes.csv",
+  "background_file": "data/measurements/doppler-broadened_20251112_172148_HighRes.csv",
+  "header_rows": 10,
+  "channel": "chA",
+  "window_ms": [
+    130.0,
+    160.0
+  ],
+  "exclude_ms": [
+    145.0,
+    150.0
+  ],
+  "fit_window_ms": [
+    146.0,
+    147.5
+  ],
+  "polarity": "peak",
+  "calibration": {
+    "mhz_per_ms": null,
+    "source": ""
+  }
+}

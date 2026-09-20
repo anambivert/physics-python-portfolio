@@ -1,0 +1,13 @@
+* text=auto
+*.py text eol=lf
+*.md text eol=lf
+*.ipynb text eol=lf
+*.csv text eol=lf
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.bmp binary
+*.pdf binary
+
+# Preserve original instrument bytes so manifest hashes survive checkout.
+projects/rubidium-spectroscopy/data/measurements/* -text

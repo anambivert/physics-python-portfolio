@@ -1,0 +1,32 @@
+# Python and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Local settings and credentials
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Keep full instrument exports local; add small documented samples separately.
+**/data/raw/*
+!**/data/raw/README.md
+
+# Scratch calculations and temporary outputs
+scratch/
+runs/
+tmp/
+*.log

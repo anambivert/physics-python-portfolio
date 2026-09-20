@@ -1,0 +1,9 @@
+% Saved 2025-11-12 T 17:30:10 -0500
+Moku:Lab Oscilloscope
+Channel A (Input 1, on), DC , 1 MOhm , 10 Vpp, 1 x probe attenuation
+Channel B (Output 1, on), 1 x probe attenuation
+Time span 257.6 ms, time offset -123.3 ms, Normal acquisition mode, no averaging
+Edge trigger: Channel B, level -2.263 mV, Auto mode, Rising edge, Auto sensitivity, noise reject off, HF reject off
+Output 1 (on) - Ramp, 10.000 000 Hz, 53.0 mVpp, offset -149.0 mV, phase 0.000 000 deg, symmetry 50.00 %, output termination 50 Ohm
+Output 2 (off) - Ramp, 50.000 000 000 kHz, 500.0 mVpp, offset 0.000 0 V, phase 0.000 000 deg, symmetry 90.00 %, output termination 50 Ohm
+Internal 10 MHz clock

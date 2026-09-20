@@ -1,0 +1,37 @@
+[
+  {
+    "capture": "153645",
+    "samples": 16320,
+    "start_ms": 72.43404000000001,
+    "end_ms": 284.842144,
+    "sha_reference": "data/manifest.json"
+  },
+  {
+    "capture": "171638",
+    "samples": 16320,
+    "start_ms": 106.58592,
+    "end_ms": 206.4582,
+    "sha_reference": "data/manifest.json"
+  },
+  {
+    "capture": "172148",
+    "samples": 16320,
+    "start_ms": 101.085336,
+    "end_ms": 211.92398400000002,
+    "sha_reference": "data/manifest.json"
+  },
+  {
+    "capture": "172919",
+    "samples": 16320,
+    "start_ms": -21.141392,
+    "end_ms": 272.73116,
+    "sha_reference": "data/manifest.json"
+  },
+  {
+    "capture": "173010",
+    "samples": 16320,
+    "start_ms": -23.932631999999998,
+    "end_ms": 269.93992,
+    "sha_reference": "data/manifest.json"
+  }
+]
