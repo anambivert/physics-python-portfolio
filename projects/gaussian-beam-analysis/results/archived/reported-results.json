@@ -1,0 +1,71 @@
+{
+  "status": "Transcribed cached output; original TXT inputs unavailable.",
+  "propagation": [
+    {
+      "distance_cm": 25.0,
+      "diameter_pixels": 379.62,
+      "diameter_stderr_pixels": 3.25
+    },
+    {
+      "distance_cm": 50.0,
+      "diameter_pixels": 489.5,
+      "diameter_stderr_pixels": 3.58
+    },
+    {
+      "distance_cm": 75.0,
+      "diameter_pixels": 470.87,
+      "diameter_stderr_pixels": 8.02
+    },
+    {
+      "distance_cm": 100.0,
+      "diameter_pixels": 573.27,
+      "diameter_stderr_pixels": 5.8
+    },
+    {
+      "distance_cm": 125.0,
+      "diameter_pixels": 917.81,
+      "diameter_stderr_pixels": 25.61
+    },
+    {
+      "distance_cm": 150.0,
+      "diameter_pixels": 676.28,
+      "diameter_stderr_pixels": 9.72
+    },
+    {
+      "distance_cm": 175.0,
+      "diameter_pixels": 840.56,
+      "diameter_stderr_pixels": 12.01
+    },
+    {
+      "distance_cm": 200.0,
+      "diameter_pixels": 769.96,
+      "diameter_stderr_pixels": 7.85
+    }
+  ],
+  "lenses": [
+    {
+      "focal_length_mm": 25.4,
+      "radius_pixels": 117.95,
+      "radius_stderr_pixels": 0.54
+    },
+    {
+      "focal_length_mm": 100.0,
+      "radius_pixels": 37.55,
+      "radius_stderr_pixels": 1.67
+    },
+    {
+      "focal_length_mm": 200.0,
+      "radius_pixels": 59.07,
+      "radius_stderr_pixels": 0.83
+    }
+  ],
+  "expander": {
+    "before_radius_pixels": 212.23,
+    "before_stderr_pixels": 3.63,
+    "after_radius_pixels": 557.23,
+    "after_stderr_pixels": 7.95,
+    "ratio": 2.63,
+    "ratio_stderr": 0.06
+  },
+  "report_scale_um_per_pixel": 3.2
+}

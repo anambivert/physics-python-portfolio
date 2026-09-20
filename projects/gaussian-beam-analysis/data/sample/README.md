@@ -1,5 +1,3 @@
-# Reproducible sample inputs
+# Included inputs
 
-No sample data has been added yet.
-
-For each added file, describe its source, columns or image format, units, acquisition conditions, and any preprocessing. Identify synthetic data explicitly if you later add a demonstration. Explain how the sample relates to the original measurements.
+The complete four supplied numeric profiles are shared in `../measurements/`. No reduced or synthetic dataset is required to run the new analysis. Synthetic noisy profiles exist only inside numerical tests and are not presented as measurements.

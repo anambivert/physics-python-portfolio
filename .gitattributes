@@ -8,6 +8,11 @@
 *.jpeg binary
 *.bmp binary
 *.pdf binary
+*.PNG binary
+*.xlsx binary
+*.docx binary
 
 # Preserve original instrument bytes so manifest hashes survive checkout.
 projects/rubidium-spectroscopy/data/measurements/* -text
+projects/gaussian-beam-analysis/data/measurements/* -text
+projects/gaussian-beam-analysis/data/images/* -text

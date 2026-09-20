@@ -1,0 +1,226 @@
+{
+  "data_status": "Fresh fits of the supplied XLSX profiles; archived TXT fits are not reproduced.",
+  "model": "I(x) = A exp(-2 (x - c)^2 / w^2) + b; w > 0",
+  "position_units": "Sample index; nominal pixels, with sampling and physical scale unverified.",
+  "physical_radius_um": null,
+  "uncertainty_note": "Residual-scaled covariance errors only; no calibration, model or clipping uncertainty.",
+  "config": {
+    "saturation_level_counts": 255,
+    "saturation_note": "Assumed 8-bit ceiling based on the supplied line-profile plots; acquisition metadata was not supplied.",
+    "report_pixel_size_um": 3.2,
+    "calibration_note": "The original report states 3.2 micrometres per pixel. The camera manual, binning and sampling settings are not included, so the new analysis reports sample units.",
+    "profiles": [
+      {
+        "id": "before",
+        "label": "Before beam expander",
+        "file": "../data/measurements/beforeexpander.xlsx"
+      },
+      {
+        "id": "after",
+        "label": "After beam expander",
+        "file": "../data/measurements/expander.xlsx"
+      },
+      {
+        "id": "lens10",
+        "label": "Lens profile: focallength10",
+        "file": "../data/measurements/focallength10.xlsx"
+      },
+      {
+        "id": "lens20",
+        "label": "Lens profile: focallength20",
+        "file": "../data/measurements/focallength20.xlsx"
+      }
+    ]
+  },
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "matplotlib": "3.10.8",
+    "openpyxl": "3.1.5"
+  },
+  "profiles": [
+    {
+      "id": "before",
+      "label": "Before beam expander",
+      "file": "../data/measurements/beforeexpander.xlsx",
+      "input_sha256": "25859372b5f5c8a7384869052ab1983cb2d681f190ee83dd681212ebda6ebdd5",
+      "free_baseline": {
+        "baseline_mode": "free",
+        "samples": 2038,
+        "amplitude_counts": 238.02895350169214,
+        "center_samples": 750.8172339803839,
+        "radius_samples": 316.95273636389146,
+        "diameter_samples": 633.9054727277829,
+        "fwhm_samples": 373.18332845855076,
+        "radius_stderr_samples": 1.2819548759371664,
+        "offset_counts": -2.4062027529661187,
+        "rss_counts_squared": 214398.9214357247,
+        "rmse_counts": 10.2567367324259,
+        "full_radius_covered": true,
+        "samples_at_ceiling": 0,
+        "warnings": [
+          "The fitted baseline is negative; inspect baseline sensitivity and residuals."
+        ]
+      },
+      "zero_baseline_sensitivity": {
+        "baseline_mode": "zero",
+        "samples": 2038,
+        "amplitude_counts": 236.04967234887138,
+        "center_samples": 750.9314678934481,
+        "radius_samples": 313.1685056856768,
+        "diameter_samples": 626.3370113713536,
+        "fwhm_samples": 368.72773733051025,
+        "radius_stderr_samples": 1.1752481821055398,
+        "offset_counts": 0.0,
+        "rss_counts_squared": 221598.72425081994,
+        "rmse_counts": 10.42753216308531,
+        "full_radius_covered": true,
+        "samples_at_ceiling": 0,
+        "warnings": []
+      }
+    },
+    {
+      "id": "after",
+      "label": "After beam expander",
+      "file": "../data/measurements/expander.xlsx",
+      "input_sha256": "4225e026bb2bd78b5ba1184905e045d1fb749087abde28d3198d8ddac71f26ed",
+      "free_baseline": {
+        "baseline_mode": "free",
+        "samples": 2037,
+        "amplitude_counts": 457.5932063645698,
+        "center_samples": 1065.3331175562842,
+        "radius_samples": 1537.6602569112304,
+        "diameter_samples": 3075.3205138224607,
+        "fwhm_samples": 1810.4565977110024,
+        "radius_stderr_samples": 38.33699224362947,
+        "offset_counts": -211.01868751330454,
+        "rss_counts_squared": 890609.8590777462,
+        "rmse_counts": 20.90972084137154,
+        "full_radius_covered": false,
+        "samples_at_ceiling": 21,
+        "warnings": [
+          "21 samples reach the assumed 255-count ceiling; possible clipping.",
+          "The fitted 1/e\u00b2 radius extends beyond the measured interval.",
+          "The fitted baseline is negative; inspect baseline sensitivity and residuals."
+        ]
+      },
+      "zero_baseline_sensitivity": {
+        "baseline_mode": "zero",
+        "samples": 2037,
+        "amplitude_counts": 256.70384431453965,
+        "center_samples": 1073.181431375026,
+        "radius_samples": 942.7309816768127,
+        "diameter_samples": 1885.4619633536254,
+        "fwhm_samples": 1109.9809063621315,
+        "radius_stderr_samples": 5.075851792197511,
+        "offset_counts": 0.0,
+        "rss_counts_squared": 1417063.4330007168,
+        "rmse_counts": 26.37540464247616,
+        "full_radius_covered": true,
+        "samples_at_ceiling": 21,
+        "warnings": [
+          "21 samples reach the assumed 255-count ceiling; possible clipping."
+        ]
+      }
+    },
+    {
+      "id": "lens10",
+      "label": "Lens profile: focallength10",
+      "file": "../data/measurements/focallength10.xlsx",
+      "input_sha256": "4087fdfa638436f97a2986cc4eec5f4f266f726e0e3f3408b60770b9e8720b18",
+      "free_baseline": {
+        "baseline_mode": "free",
+        "samples": 1021,
+        "amplitude_counts": 279.4673460278704,
+        "center_samples": 421.29168935535745,
+        "radius_samples": 10.329047193192533,
+        "diameter_samples": 20.658094386385066,
+        "fwhm_samples": 12.161523688300221,
+        "radius_stderr_samples": 0.054609308171559325,
+        "offset_counts": -0.10269926639220782,
+        "rss_counts_squared": 10069.040863739696,
+        "rmse_counts": 3.1403726086556354,
+        "full_radius_covered": true,
+        "samples_at_ceiling": 0,
+        "warnings": [
+          "The fitted baseline is negative; inspect baseline sensitivity and residuals."
+        ]
+      },
+      "zero_baseline_sensitivity": {
+        "baseline_mode": "zero",
+        "samples": 1021,
+        "amplitude_counts": 279.3826821962407,
+        "center_samples": 421.29163832246275,
+        "radius_samples": 10.324569839659137,
+        "diameter_samples": 20.649139679318274,
+        "fwhm_samples": 12.156252007375656,
+        "radius_stderr_samples": 0.05436575018130443,
+        "offset_counts": 0.0,
+        "rss_counts_squared": 10079.534871250711,
+        "rmse_counts": 3.1420086389472432,
+        "full_radius_covered": true,
+        "samples_at_ceiling": 0,
+        "warnings": []
+      }
+    },
+    {
+      "id": "lens20",
+      "label": "Lens profile: focallength20",
+      "file": "../data/measurements/focallength20.xlsx",
+      "input_sha256": "7160a0c12318cada614215a30c3a8f84be29c1b242ea8f439250241bab443ffe",
+      "free_baseline": {
+        "baseline_mode": "free",
+        "samples": 2035,
+        "amplitude_counts": 230.35752590559966,
+        "center_samples": 839.1838121666,
+        "radius_samples": 35.35680109137385,
+        "diameter_samples": 70.7136021827477,
+        "fwhm_samples": 41.62945196906965,
+        "radius_stderr_samples": 0.12043807566012124,
+        "offset_counts": -0.17831656060506104,
+        "rss_counts_squared": 19280.99104782604,
+        "rmse_counts": 3.078098191349683,
+        "full_radius_covered": true,
+        "samples_at_ceiling": 0,
+        "warnings": [
+          "The fitted baseline is negative; inspect baseline sensitivity and residuals."
+        ]
+      },
+      "zero_baseline_sensitivity": {
+        "baseline_mode": "zero",
+        "samples": 2035,
+        "amplitude_counts": 230.21005394281062,
+        "center_samples": 839.182882670013,
+        "radius_samples": 35.324663523397525,
+        "diameter_samples": 70.64932704679505,
+        "fwhm_samples": 41.59161287443505,
+        "radius_stderr_samples": 0.11966192225322422,
+        "offset_counts": 0.0,
+        "rss_counts_squared": 19342.880023565598,
+        "rmse_counts": 3.083034341145243,
+        "full_radius_covered": true,
+        "samples_at_ceiling": 0,
+        "warnings": []
+      }
+    }
+  ],
+  "expansion": {
+    "status": "Diagnostic sample-width ratios only; optical magnification is not validated.",
+    "assumption": "The two profiles would need equal spatial scale for an optical width ratio.",
+    "free_baseline": {
+      "ratio": 4.851386596473022,
+      "conditional_stderr": 0.12253618476587566
+    },
+    "zero_baseline_sensitivity": {
+      "ratio": 3.010299454003908,
+      "conditional_stderr": 0.019756570241814
+    },
+    "archived_notebook_ratio": {
+      "value": 2.63,
+      "stderr": 0.06,
+      "status": "Cached historical output, different unavailable inputs."
+    },
+    "nominal_design_ratio": 3.937007874015748
+  }
+}

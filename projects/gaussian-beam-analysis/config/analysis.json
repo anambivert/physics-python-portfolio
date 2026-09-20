@@ -1,0 +1,12 @@
+{
+  "saturation_level_counts": 255,
+  "saturation_note": "Assumed 8-bit ceiling based on the supplied line-profile plots; acquisition metadata was not supplied.",
+  "report_pixel_size_um": 3.2,
+  "calibration_note": "The original report states 3.2 micrometres per pixel. The camera manual, binning and sampling settings are not included, so the new analysis reports sample units.",
+  "profiles": [
+    {"id": "before", "label": "Before beam expander", "file": "../data/measurements/beforeexpander.xlsx"},
+    {"id": "after", "label": "After beam expander", "file": "../data/measurements/expander.xlsx"},
+    {"id": "lens10", "label": "Lens profile: focallength10", "file": "../data/measurements/focallength10.xlsx"},
+    {"id": "lens20", "label": "Lens profile: focallength20", "file": "../data/measurements/focallength20.xlsx"}
+  ]
+}

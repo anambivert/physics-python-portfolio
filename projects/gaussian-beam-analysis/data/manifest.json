@@ -1,0 +1,164 @@
+{
+  "files": [
+    {
+      "uploaded_name": "beforeexpander.xlsx",
+      "path": "data/measurements/beforeexpander.xlsx",
+      "original_sha256": "25859372b5f5c8a7384869052ab1983cb2d681f190ee83dd681212ebda6ebdd5",
+      "repository_sha256": "25859372b5f5c8a7384869052ab1983cb2d681f190ee83dd681212ebda6ebdd5",
+      "bytes": 21626,
+      "status": "Byte-identical original"
+    },
+    {
+      "uploaded_name": "expander.xlsx",
+      "path": "data/measurements/expander.xlsx",
+      "original_sha256": "4225e026bb2bd78b5ba1184905e045d1fb749087abde28d3198d8ddac71f26ed",
+      "repository_sha256": "4225e026bb2bd78b5ba1184905e045d1fb749087abde28d3198d8ddac71f26ed",
+      "bytes": 24195,
+      "status": "Byte-identical original"
+    },
+    {
+      "uploaded_name": "focallength10.xlsx",
+      "path": "data/measurements/focallength10.xlsx",
+      "original_sha256": "4087fdfa638436f97a2986cc4eec5f4f266f726e0e3f3408b60770b9e8720b18",
+      "repository_sha256": "4087fdfa638436f97a2986cc4eec5f4f266f726e0e3f3408b60770b9e8720b18",
+      "bytes": 13965,
+      "status": "Byte-identical original"
+    },
+    {
+      "uploaded_name": "focallength20.xlsx",
+      "path": "data/measurements/focallength20.xlsx",
+      "original_sha256": "7160a0c12318cada614215a30c3a8f84be29c1b242ea8f439250241bab443ffe",
+      "repository_sha256": "7160a0c12318cada614215a30c3a8f84be29c1b242ea8f439250241bab443ffe",
+      "bytes": 19893,
+      "status": "Byte-identical original"
+    },
+    {
+      "uploaded_name": "expander.png",
+      "path": "data/images/expander.png",
+      "original_sha256": "62eef75e6111b8fc6c368fe5e7c3e456198647ea8a39ddfd18d4cbdeb7e6b7b1",
+      "repository_sha256": "62eef75e6111b8fc6c368fe5e7c3e456198647ea8a39ddfd18d4cbdeb7e6b7b1",
+      "bytes": 11341,
+      "status": "Byte-identical original"
+    },
+    {
+      "uploaded_name": "expanderbeam.PNG",
+      "path": "data/images/expanderbeam.PNG",
+      "original_sha256": "b2d9d7ac175957f4daa3d47e3b3acceac42e574c76d0ba5d91db71160e8c9d59",
+      "repository_sha256": "b2d9d7ac175957f4daa3d47e3b3acceac42e574c76d0ba5d91db71160e8c9d59",
+      "bytes": 826391,
+      "status": "Byte-identical original"
+    },
+    {
+      "uploaded_name": "focallength10.png",
+      "path": "data/images/focallength10.png",
+      "original_sha256": "74d1b073ffb73f4e8c8eae5a37f031356fb2d93e2fdf2f114a3bdfc8574a14e8",
+      "repository_sha256": "74d1b073ffb73f4e8c8eae5a37f031356fb2d93e2fdf2f114a3bdfc8574a14e8",
+      "bytes": 7055,
+      "status": "Byte-identical original"
+    },
+    {
+      "uploaded_name": "focallength20.png",
+      "path": "data/images/focallength20.png",
+      "original_sha256": "f1bccbb6e762e8475057ada18a20c68b203045921494fdcc061a94261369b603",
+      "repository_sha256": "f1bccbb6e762e8475057ada18a20c68b203045921494fdcc061a94261369b603",
+      "bytes": 7428,
+      "status": "Byte-identical original"
+    },
+    {
+      "uploaded_name": "image1.png",
+      "path": "data/images/image1.png",
+      "original_sha256": "4bce52205fd2d373ef5ec3576315f3cb978cce5c159c6f828b2915d33b70b242",
+      "repository_sha256": "4bce52205fd2d373ef5ec3576315f3cb978cce5c159c6f828b2915d33b70b242",
+      "bytes": 8215,
+      "status": "Byte-identical original"
+    },
+    {
+      "uploaded_name": "image2.png",
+      "path": "data/images/image2.png",
+      "original_sha256": "de28435e21c0f2b3ee8fc17689d0e879756bc0337637c008a92557a77aa04bfa",
+      "repository_sha256": "de28435e21c0f2b3ee8fc17689d0e879756bc0337637c008a92557a77aa04bfa",
+      "bytes": 8406,
+      "status": "Byte-identical original"
+    },
+    {
+      "uploaded_name": "image3.png",
+      "path": "data/images/image3.png",
+      "original_sha256": "5db352d1f0ea8f3623b8202cd7409add459228f0c41b56178b7449d483a4e751",
+      "repository_sha256": "5db352d1f0ea8f3623b8202cd7409add459228f0c41b56178b7449d483a4e751",
+      "bytes": 8426,
+      "status": "Byte-identical original"
+    },
+    {
+      "uploaded_name": "image4.png",
+      "path": "data/images/image4.png",
+      "original_sha256": "4f9c2eee1d6f71e40bf66001b87ee43d39c11a77a9a727bbc56989abd6231871",
+      "repository_sha256": "4f9c2eee1d6f71e40bf66001b87ee43d39c11a77a9a727bbc56989abd6231871",
+      "bytes": 8383,
+      "status": "Byte-identical original"
+    },
+    {
+      "uploaded_name": "image5.png",
+      "path": "data/images/image5.png",
+      "original_sha256": "f894574f3a6aabeaa29504542c03f348ef432e970b0963b3b8f981a73fcb9a9f",
+      "repository_sha256": "f894574f3a6aabeaa29504542c03f348ef432e970b0963b3b8f981a73fcb9a9f",
+      "bytes": 8294,
+      "status": "Byte-identical original"
+    },
+    {
+      "uploaded_name": "imagebeforeexpander.PNG",
+      "path": "data/images/imagebeforeexpander.PNG",
+      "original_sha256": "ac8d06a836c5b54246a4b6c41a5228ece6b040ffa37ba6a6959ad0f2019222cb",
+      "repository_sha256": "ac8d06a836c5b54246a4b6c41a5228ece6b040ffa37ba6a6959ad0f2019222cb",
+      "bytes": 220188,
+      "status": "Byte-identical original"
+    },
+    {
+      "uploaded_name": "imageofbeam1.PNG",
+      "path": "data/images/imageofbeam1.PNG",
+      "original_sha256": "58261978301e3d02bff4af4fc7bb6c4338eba9116f963d8cd0d73128c696270c",
+      "repository_sha256": "58261978301e3d02bff4af4fc7bb6c4338eba9116f963d8cd0d73128c696270c",
+      "bytes": 175267,
+      "status": "Byte-identical original"
+    },
+    {
+      "uploaded_name": "imageofbeam2.PNG",
+      "path": "data/images/imageofbeam2.PNG",
+      "original_sha256": "fe1c51b3aa50bb39ca2ec0caf3cc6768f9853fb362cb7b6f32569e0783fa8cff",
+      "repository_sha256": "fe1c51b3aa50bb39ca2ec0caf3cc6768f9853fb362cb7b6f32569e0783fa8cff",
+      "bytes": 158819,
+      "status": "Byte-identical original"
+    },
+    {
+      "uploaded_name": "imageofbeam3.PNG",
+      "path": "data/images/imageofbeam3.PNG",
+      "original_sha256": "ac8ec80003e6dc607a5fd5b03a1f74dbd1a0ea4329c482c367baf8fb07ec847b",
+      "repository_sha256": "ac8ec80003e6dc607a5fd5b03a1f74dbd1a0ea4329c482c367baf8fb07ec847b",
+      "bytes": 170193,
+      "status": "Byte-identical original"
+    },
+    {
+      "uploaded_name": "imageofbeam4.PNG",
+      "path": "data/images/imageofbeam4.PNG",
+      "original_sha256": "922b12fd7db11f38db27c0da5139fae97fa9daa80e7bd7458e6cd0a2cf8d81ea",
+      "repository_sha256": "922b12fd7db11f38db27c0da5139fae97fa9daa80e7bd7458e6cd0a2cf8d81ea",
+      "bytes": 197940,
+      "status": "Byte-identical original"
+    },
+    {
+      "uploaded_name": "Lab 02- Gaussian Beams.docx",
+      "path": "reports/lab2-original-report.docx",
+      "original_sha256": "1cfd1036fbf217273e21e1a8ea0441b1dd363d1aeb8cd18acf5b3110795b612d",
+      "repository_sha256": "1cfd1036fbf217273e21e1a8ea0441b1dd363d1aeb8cd18acf5b3110795b612d",
+      "bytes": 1853949,
+      "status": "Byte-identical original"
+    },
+    {
+      "uploaded_name": "Code for Lab 02.ipynb",
+      "path": "notebooks/lab2-archived.ipynb",
+      "original_sha256": "9017c6426c515b98fb11b7db8dcf6fa1439a77ef6bdcb3d3d28f8249d0642b7e",
+      "repository_sha256": "ea72e8cc3ff6790c690985d027c018a0abb293c132a931fe37c05282cc71b094",
+      "bytes": 33980,
+      "status": "Notebook adapted: relative paths and archive note; numeric code and cached values retained."
+    }
+  ]
+}
