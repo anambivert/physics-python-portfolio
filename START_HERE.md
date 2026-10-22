@@ -1,8 +1,9 @@
 # Start here
 
-The portfolio has two developed lab entries:
+The portfolio has three developed lab entries:
 
 - [Lab 02: Gaussian beam analysis](projects/gaussian-beam-analysis/README.md) fits four supplied Excel profiles, compares baseline assumptions, and provides a runnable notebook, original images and report. Historical results from missing TXT inputs are labelled separately.
+- [Lab 05: Doppler-broadened rubidium absorption](projects/rubidium-absorption/README.md) preserves 25 instrument files and reproduces the original calculation. Its portable script and notebook add time-domain fits, residuals, window sensitivity and a review of the unverified frequency and transmission assumptions.
 - [Lab 06: Doppler-free rubidium spectroscopy](projects/rubidium-spectroscopy/README.md) includes original instrument data and report, an archived notebook, reproduced plots, a portable script and numerical checks. Time-width fits reproduce the saved notebook values; frequency calibration and fit-window coverage remain scientific limitations.
 
 1. Open the project README to see the result, figure, and methods.

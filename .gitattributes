@@ -16,3 +16,4 @@
 projects/rubidium-spectroscopy/data/measurements/* -text
 projects/gaussian-beam-analysis/data/measurements/* -text
 projects/gaussian-beam-analysis/data/images/* -text
+projects/rubidium-absorption/data/measurements/* -text

@@ -1,0 +1,17 @@
+{
+  "signal_file": "data/measurements/MokuOscilloscopeData_20251029_144859_HighRes.csv",
+  "background_file": "data/measurements/back100offset10hz_20251029_150846_HighRes.csv",
+  "signal_channel": "A",
+  "background_channel": "B",
+  "background_scale": 1.0,
+  "selection_window_ms": [-75.0, -25.0],
+  "fit_halfwidth_ms": 5.797130476190475,
+  "sensitivity_halfwidth_ms": 2.5,
+  "transmission_window_ms": [-75.0, 25.0],
+  "ramp_check_window_ms": [-70.0, -30.0],
+  "historical_frequency_mapping": {
+    "frequency_span_GHz": 33.6,
+    "status": "Unverified historical assumption; used only to compare saved notebook values. The main results remain in milliseconds.",
+    "fit_window_derivation": "Original half-width 0.8 GHz divided by (33.6 GHz / 243.47948 ms) gives 5.797130476190475 ms."
+  }
+}

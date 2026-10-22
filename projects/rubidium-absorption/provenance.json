@@ -1,0 +1,22 @@
+{
+  "notebook": {
+    "uploaded_name": "Code for Lab 5 (1).ipynb",
+    "original_sha256": "813d6c21b52b57be38105b99706eeb2b35cf17171a099a2431ea9c6e14b269c0",
+    "repository_path": "notebooks/lab5-archived.ipynb",
+    "repository_sha256": "52da29c7309b7228d7f76afbdbe51e96372fd6e39ac8daaf8c9593161bbc0d7e",
+    "changes": [
+      "Replace two Windows input paths with notebook-relative paths.",
+      "Add archival context markdown."
+    ]
+  },
+  "report": {
+    "uploaded_name": "Lab 5- Rubidium Atom.docx",
+    "repository_path": "reports/lab5-original-report.docx",
+    "original_sha256": "42bcdf785a536118d1d2efd82f75fd8013c6ce0bdcde1ad87ae7808f13b1c96a",
+    "repository_sha256": "42bcdf785a536118d1d2efd82f75fd8013c6ce0bdcde1ad87ae7808f13b1c96a",
+    "status": "byte-identical"
+  },
+  "original_code_attribution": "The supplied report credits ChatGPT 5.1 Extended Thinking with generating the original code.",
+  "portfolio_refactor": "AI-assisted, September 2026",
+  "instrument_manifest": "data/manifest.json"
+}

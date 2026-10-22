@@ -1,0 +1,22 @@
+=== AH3 raw quantities (before safety fixes) ===
+Time window              : [-0.075, 0.025] s
+Deepest dip time t_min   : -0.057979 s
+I_min_raw (y_cell at dip): -5.6333e-03
+I0_est_raw (95th perc.)  : 7.5333e-03
+T_raw = I_min_raw / I0_est_raw = -0.7478
+T_raw not in (0,1). Adjusting baseline estimate automatically...
+  Shift applied to I_region: 1.3167e-02
+  New I0_est (max in region): 2.1767e-02
+  New I_min (shifted at dip): 7.5333e-03
+  New T_fixed               : 0.3461
+
+=== AH3 final transmission used ===
+I0_est (baseline)      = 2.1767e-02
+I_min (at dip)         = 7.5333e-03
+T_min (used in formula)= 0.346095
+
+Estimated rubidium number density:
+  n = 4.716e+13 m^-3
+
+Estimated rubidium vapour pressure:
+  P = 1.908e-07 Pa  ≈ 1.431e-09 Torr

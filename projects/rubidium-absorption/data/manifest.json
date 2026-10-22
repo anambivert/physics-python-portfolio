@@ -1,0 +1,185 @@
+{
+  "source_zip": {
+    "uploaded_name": "lab 5-20251201T203601Z-1-001.zip",
+    "bytes": 1910386,
+    "sha256": "217f8b716cc0fa40203cfe02480a7dff0a90bc01565fc96421445a6745089609",
+    "status": "All 25 members extracted unchanged; container not duplicated in the repository."
+  },
+  "files": [
+    {
+      "zip_member": "lab 5/0 offset 100hz.csv",
+      "repository_path": "data/measurements/0 offset 100hz.csv",
+      "bytes": 50714,
+      "sha256": "81df14fe25773236f2ae3111db8b5e928c29305780b49262ef2cc2c148fbe8ca",
+      "status": "byte-identical"
+    },
+    {
+      "zip_member": "lab 5/back210offset100hz_20251029_150607_Settings.txt",
+      "repository_path": "data/measurements/back210offset100hz_20251029_150607_Settings.txt",
+      "bytes": 685,
+      "sha256": "e1891d119acad4238251eef25286852965166bc0d5d07655bac6882ccf9fdd3c",
+      "status": "byte-identical"
+    },
+    {
+      "zip_member": "lab 5/210offset100hz_20251029_145836_Traces.csv",
+      "repository_path": "data/measurements/210offset100hz_20251029_145836_Traces.csv",
+      "bytes": 50932,
+      "sha256": "34cde2614339c3f47c21fcb17599f5f3026720c2d2e867ae3fbcb573bf45642b",
+      "status": "byte-identical"
+    },
+    {
+      "zip_member": "lab 5/back100offset10hz_20251029_150846_Screenshot.png",
+      "repository_path": "data/measurements/back100offset10hz_20251029_150846_Screenshot.png",
+      "bytes": 105579,
+      "sha256": "0d6a4bce9f8f69dbd115ce02fb8c4433acf12cf83ae3455c8794df7253d28315",
+      "status": "byte-identical"
+    },
+    {
+      "zip_member": "lab 5/back210offset100hz_20251029_150607_Screenshot.png",
+      "repository_path": "data/measurements/back210offset100hz_20251029_150607_Screenshot.png",
+      "bytes": 107153,
+      "sha256": "2d6ec67329b9ca899e4ffe714a401a26ac8846cfc8b29f9cfcbd326222e0610f",
+      "status": "byte-identical"
+    },
+    {
+      "zip_member": "lab 5/back100offset10hz_20251029_150846_Settings.txt",
+      "repository_path": "data/measurements/back100offset10hz_20251029_150846_Settings.txt",
+      "bytes": 684,
+      "sha256": "91d83d76875aa7da5f8779a3ecf2eb9a53a6d0c8ad76fc78033ae7a6d7538d4a",
+      "status": "byte-identical"
+    },
+    {
+      "zip_member": "lab 5/back100offset10hz_20251029_150846_HighRes.csv",
+      "repository_path": "data/measurements/back100offset10hz_20251029_150846_HighRes.csv",
+      "bytes": 895973,
+      "sha256": "804b333635ec8909231e556393367926152ca9d79f5891db81187b70049d9d75",
+      "status": "byte-identical"
+    },
+    {
+      "zip_member": "lab 5/210offset100hz_20251029_145836_HighRes.csv",
+      "repository_path": "data/measurements/210offset100hz_20251029_145836_HighRes.csv",
+      "bytes": 917101,
+      "sha256": "4235f4cbcd19177b04114cc39ce7d16dae83a6b99ef3011d16731861fc11fbd8",
+      "status": "byte-identical"
+    },
+    {
+      "zip_member": "lab 5/0 offset 10hz.png",
+      "repository_path": "data/measurements/0 offset 10hz.png",
+      "bytes": 101937,
+      "sha256": "a2392670a070c9ae4bceb7631d84b5648b596b2eee7b227b7fde920a21ba22d7",
+      "status": "byte-identical"
+    },
+    {
+      "zip_member": "lab 5/0 offset 10hz.txt",
+      "repository_path": "data/measurements/0 offset 10hz.txt",
+      "bytes": 664,
+      "sha256": "43a66b53506ab1343b9f9f03194ec3314574428d28e6785248a1f8baff4e3650",
+      "status": "byte-identical"
+    },
+    {
+      "zip_member": "lab 5/0 offset 10hz.csv",
+      "repository_path": "data/measurements/0 offset 10hz.csv",
+      "bytes": 907428,
+      "sha256": "63deb334a277093267d33b643b24a9cd03585af7099ff732748fcb47a1a35d32",
+      "status": "byte-identical"
+    },
+    {
+      "zip_member": "lab 5/0 offset 100hz data.csv",
+      "repository_path": "data/measurements/0 offset 100hz data.csv",
+      "bytes": 914405,
+      "sha256": "c9b9ef9b734a828fb12408b819a7a5ba5205400fe441a902e9adcbf4ec845b39",
+      "status": "byte-identical"
+    },
+    {
+      "zip_member": "lab 5/0 offset 100hz.png",
+      "repository_path": "data/measurements/0 offset 100hz.png",
+      "bytes": 105991,
+      "sha256": "96859efa782d56f89713334b2d55dc04e1974c2ddd5784fcaad785796edf60ed",
+      "status": "byte-identical"
+    },
+    {
+      "zip_member": "lab 5/back210offset100hz_20251029_150607_HighRes.csv",
+      "repository_path": "data/measurements/back210offset100hz_20251029_150607_HighRes.csv",
+      "bytes": 897903,
+      "sha256": "01b780c3b40058193cd5ca24030e5744fd8a0aa30ac685c89c15a8986d7f3a44",
+      "status": "byte-identical"
+    },
+    {
+      "zip_member": "lab 5/210offset100hz_20251029_145836_Screenshot.png",
+      "repository_path": "data/measurements/210offset100hz_20251029_145836_Screenshot.png",
+      "bytes": 105962,
+      "sha256": "1bcebc976af34fc1eac13e8c074b18e1e4289c2e1966c96a27019c6ab188e302",
+      "status": "byte-identical"
+    },
+    {
+      "zip_member": "lab 5/back100offset10hz_20251029_150846_Traces.csv",
+      "repository_path": "data/measurements/back100offset10hz_20251029_150846_Traces.csv",
+      "bytes": 49802,
+      "sha256": "0a3ca1bec8bfad82b03eaf4dc22f19f8cb3f199239b26f665f53f7bdc2811b05",
+      "status": "byte-identical"
+    },
+    {
+      "zip_member": "lab 5/MokuOscilloscopeData_20251029_144859_Screenshot.png",
+      "repository_path": "data/measurements/MokuOscilloscopeData_20251029_144859_Screenshot.png",
+      "bytes": 102821,
+      "sha256": "aac012ad69048cb51d6fea48e7da2e3165531b42c420d95a434e72d1b8322264",
+      "status": "byte-identical"
+    },
+    {
+      "zip_member": "lab 5/Rubidium 0 offset.csv",
+      "repository_path": "data/measurements/Rubidium 0 offset.csv",
+      "bytes": 50420,
+      "sha256": "615f7a8b19769da92daef580ea5124697a8d8d2aaf4fb352a1ab74f1bb29f344",
+      "status": "byte-identical"
+    },
+    {
+      "zip_member": "lab 5/MokuOscilloscopeData_20251029_144859_HighRes.xlsx",
+      "repository_path": "data/measurements/MokuOscilloscopeData_20251029_144859_HighRes.xlsx",
+      "bytes": 358720,
+      "sha256": "00e56b840154ce9cee79f4766d31fda6e18d7d2ced0f8af57e882c5bc8fb5c30",
+      "status": "byte-identical"
+    },
+    {
+      "zip_member": "lab 5/back210offset100hz_20251029_150607_Traces.csv",
+      "repository_path": "data/measurements/back210offset100hz_20251029_150607_Traces.csv",
+      "bytes": 49894,
+      "sha256": "86a8d78583f971bdcaf155a57dd89b43356930741ec3965e8d7a418f948fc50b",
+      "status": "byte-identical"
+    },
+    {
+      "zip_member": "lab 5/MokuOscilloscopeData_20251029_144859_HighRes.csv",
+      "repository_path": "data/measurements/MokuOscilloscopeData_20251029_144859_HighRes.csv",
+      "bytes": 907870,
+      "sha256": "676d3ed54e762c9dc2ffa2592eed4e9bb66cb9147c390f190aa5a04fe062cfac",
+      "status": "byte-identical"
+    },
+    {
+      "zip_member": "lab 5/210offset100hz_20251029_145836_Settings.txt",
+      "repository_path": "data/measurements/210offset100hz_20251029_145836_Settings.txt",
+      "bytes": 665,
+      "sha256": "717def7bc029ef9f1245b8c38a3b51db7066e00aa9f966cba0ae85a44e40f560",
+      "status": "byte-identical"
+    },
+    {
+      "zip_member": "lab 5/0 offset 100hz.txt",
+      "repository_path": "data/measurements/0 offset 100hz.txt",
+      "bytes": 665,
+      "sha256": "6209745510e38085178dec89269482fdacd79e553ae8b4c743f40071c69e8093",
+      "status": "byte-identical"
+    },
+    {
+      "zip_member": "lab 5/Rubidium off 100mv.csv",
+      "repository_path": "data/measurements/Rubidium off 100mv.csv",
+      "bytes": 50445,
+      "sha256": "d040d6287a7b0ff921bbba570f075799c437b8064ea2b9f14fa984287367b311",
+      "status": "byte-identical"
+    },
+    {
+      "zip_member": "lab 5/MokuOscilloscopeData_20251029_144859_Settings.txt",
+      "repository_path": "data/measurements/MokuOscilloscopeData_20251029_144859_Settings.txt",
+      "bytes": 664,
+      "sha256": "1c31c2bc8f27973ebcdf8f819a473756f4c21d689388e9a4c75a556b7ebf55d8",
+      "status": "byte-identical"
+    }
+  ]
+}

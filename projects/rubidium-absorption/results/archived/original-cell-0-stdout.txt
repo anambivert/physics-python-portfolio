@@ -1,0 +1,22 @@
+Cell columns     : ['Time (s)', 'Channel A (V)', 'Channel B (V)']
+Background columns: ['Time (s)', 'Channel A (V)', 'Channel B (V)']
+Using manual alpha = 1.000000
+Using frequency sweep = 33.60 GHz for 1.00 Vpp.
+Global dip indices: [5144 5533 6438 7260]
+Dip times (s): [-0.063783   -0.05797912 -0.04447652 -0.03221228]
+Peak 1:
+  time   ≈ -0.06378 s
+  center ≈ 10.583 GHz
+  FWHM   ≈ 229.0 MHz
+Peak 2:
+  time   ≈ -0.05798 s
+  center ≈ 11.375 GHz
+  FWHM   ≈ 261.4 MHz
+Peak 3:
+  time   ≈ -0.04448 s
+  center ≈ 13.314 GHz
+  FWHM   ≈ 269.8 MHz
+Peak 4:
+  time   ≈ -0.03221 s
+  center ≈ 14.991 GHz
+  FWHM   ≈ 254.5 MHz

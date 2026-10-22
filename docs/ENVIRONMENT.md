@@ -2,7 +2,7 @@
 
 Use Python 3.10 or newer for the project-creation utility. The lab programs may have their own requirements once imported.
 
-The root `requirements.txt` contains a suggested toolkit for future projects. For the included labs, use `projects/gaussian-beam-analysis/requirements.txt` (Lab 02) and `projects/rubidium-spectroscopy/requirements.txt` (Lab 06). Both were tested on Python 3.12.14. Lab 02 adds openpyxl for Excel input; the shared NumPy, SciPy and Matplotlib pins match.
+The root `requirements.txt` contains a suggested toolkit for future projects. Each included lab has its own tested `requirements.txt`: `projects/gaussian-beam-analysis/` (Lab 02), `projects/rubidium-absorption/` (Lab 05), and `projects/rubidium-spectroscopy/` (Lab 06). All three were tested on Python 3.12.14. Lab 02 adds openpyxl for Excel input; the shared NumPy, SciPy and Matplotlib pins match.
 
 ## Windows PowerShell
 
@@ -24,7 +24,7 @@ python3 -m venv .venv
 .venv/bin/python -m jupyterlab
 ```
 
-Open `projects/gaussian-beam-analysis/notebooks/analysis.ipynb` for the runnable Lab 02 workflow. Archived notebooks preserve historical code and cached output; consult their opening notes before running them. The generic template notebook contains instructions and empty cells for future projects.
+The commands above also satisfy the portable Lab 05 requirements because its dependency pins match Lab 06. Open `projects/gaussian-beam-analysis/notebooks/analysis.ipynb` for Lab 02 or `projects/rubidium-absorption/notebooks/analysis.ipynb` for Lab 05. Archived notebooks preserve historical code and cached output; consult their opening notes before running them. Lab 05's archived notebook additionally requires `pandas`. The generic template notebook contains instructions and empty cells for future projects.
 
 ## Once a real project runs
 

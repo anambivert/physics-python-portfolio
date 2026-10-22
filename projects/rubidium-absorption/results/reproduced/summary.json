@@ -1,0 +1,301 @@
+{
+  "source": "Reanalysis of supplied Lab 05 measurements; not calibrated spectroscopy results.",
+  "inputs": [
+    {
+      "name": "MokuOscilloscopeData_20251029_144859_HighRes.csv",
+      "sha256": "676d3ed54e762c9dc2ffa2592eed4e9bb66cb9147c390f190aa5a04fe062cfac"
+    },
+    {
+      "name": "back100offset10hz_20251029_150846_HighRes.csv",
+      "sha256": "804b333635ec8909231e556393367926152ca9d79f5891db81187b70049d9d75"
+    }
+  ],
+  "config": {
+    "signal_file": "data/measurements/MokuOscilloscopeData_20251029_144859_HighRes.csv",
+    "background_file": "data/measurements/back100offset10hz_20251029_150846_HighRes.csv",
+    "signal_channel": "A",
+    "background_channel": "B",
+    "background_scale": 1.0,
+    "selection_window_ms": [
+      -75.0,
+      -25.0
+    ],
+    "fit_halfwidth_ms": 5.797130476190475,
+    "sensitivity_halfwidth_ms": 2.5,
+    "transmission_window_ms": [
+      -75.0,
+      25.0
+    ],
+    "ramp_check_window_ms": [
+      -70.0,
+      -30.0
+    ],
+    "historical_frequency_mapping": {
+      "frequency_span_GHz": 33.6,
+      "status": "Unverified historical assumption; used only to compare saved notebook values. The main results remain in milliseconds.",
+      "fit_window_derivation": "Original half-width 0.8 GHz divided by (33.6 GHz / 243.47948 ms) gives 5.797130476190475 ms."
+    }
+  },
+  "fits": [
+    {
+      "amplitude_V": -0.001778914075771998,
+      "center_ms": -63.84552661323669,
+      "fwhm_ms": 1.6596121809685045,
+      "offset_V": 0.0004175456618396697,
+      "conditional_standard_errors": {
+        "amplitude_V": 0.00023029638033742622,
+        "center_ms": 0.1026645923600993,
+        "fwhm_ms": 0.2602929761040456,
+        "offset_V": 7.311704335675532e-05
+      },
+      "dip_guess_ms": -63.78300000000001,
+      "fit_interval_ms": [
+        -69.57196,
+        -57.99404
+      ],
+      "samples": 777,
+      "rmse_V": 0.0016723166361933242,
+      "rss_V2": 0.0021729915579223173,
+      "full_fwhm_covered": true,
+      "frequency_fwhm_MHz": null,
+      "warnings": [],
+      "feature": 1
+    },
+    {
+      "amplitude_V": -0.004980344154500741,
+      "center_ms": -58.10441158532668,
+      "fwhm_ms": 1.8939319267442898,
+      "offset_V": 0.0006624375778921594,
+      "conditional_standard_errors": {
+        "amplitude_V": 0.00014740532327081252,
+        "center_ms": 0.02663577555317499,
+        "fwhm_ms": 0.06856135833540938,
+        "offset_V": 5.148149000331666e-05
+      },
+      "dip_guess_ms": -57.97912,
+      "fit_interval_ms": [
+        -63.768080000000005,
+        -52.19016
+      ],
+      "samples": 777,
+      "rmse_V": 0.0011370738636296467,
+      "rss_V2": 0.0010046120267386798,
+      "full_fwhm_covered": true,
+      "frequency_fwhm_MHz": null,
+      "warnings": [],
+      "feature": 2
+    },
+    {
+      "amplitude_V": -0.003005740553004934,
+      "center_ms": -44.052884243270924,
+      "fwhm_ms": 1.9548592456863538,
+      "offset_V": 0.0006616416964284369,
+      "conditional_standard_errors": {
+        "amplitude_V": 8.74437378132914e-05,
+        "center_ms": 0.026980684163845768,
+        "fwhm_ms": 0.0697427265127527,
+        "offset_V": 3.1273576368814645e-05
+      },
+      "dip_guess_ms": -44.47652,
+      "fit_interval_ms": [
+        -50.265480000000004,
+        -38.687560000000005
+      ],
+      "samples": 777,
+      "rmse_V": 0.0006842154254916354,
+      "rss_V2": 0.00036375313156950364,
+      "full_fwhm_covered": true,
+      "frequency_fwhm_MHz": null,
+      "warnings": [],
+      "feature": 3
+    },
+    {
+      "amplitude_V": -0.001301179069058366,
+      "center_ms": -31.899324105436687,
+      "fwhm_ms": 1.8438255131936983,
+      "offset_V": 0.00019870392713415815,
+      "conditional_standard_errors": {
+        "amplitude_V": 8.433400635094189e-05,
+        "center_ms": 0.056856492798417785,
+        "fwhm_ms": 0.14585701754123703,
+        "offset_V": 2.8875755934558714e-05
+      },
+      "dip_guess_ms": -32.21228,
+      "fit_interval_ms": [
+        -38.001239999999996,
+        -26.42332
+      ],
+      "samples": 777,
+      "rmse_V": 0.0006426927244088587,
+      "rss_V2": 0.0003209429098322789,
+      "full_fwhm_covered": true,
+      "frequency_fwhm_MHz": null,
+      "warnings": [],
+      "feature": 4
+    }
+  ],
+  "window_sensitivity": [
+    {
+      "feature": 1,
+      "main_fwhm_ms": 1.6596121809685045,
+      "narrow_fwhm_ms": 6.004378430744403,
+      "change_percent": 261.79406849378574,
+      "narrow_fit": {
+        "amplitude_V": -0.007866265424828553,
+        "center_ms": -63.9919637714392,
+        "fwhm_ms": 6.004378430744403,
+        "offset_V": 0.006772870571452094,
+        "conditional_standard_errors": {
+          "amplitude_V": 0.0018592739790402753,
+          "center_ms": 0.015194456897509862,
+          "fwhm_ms": 0.8820889122330817,
+          "offset_V": 0.0018780822383605079
+        },
+        "dip_guess_ms": -63.78300000000001,
+        "fit_interval_ms": [
+          -66.27463999999999,
+          -61.291360000000005
+        ],
+        "samples": 335,
+        "rmse_V": 0.0003445013432501713,
+        "rss_V2": 3.975819379289274e-05,
+        "full_fwhm_covered": false,
+        "frequency_fwhm_MHz": null,
+        "warnings": [
+          "Both fitted half-maximum positions are not covered by this window."
+        ]
+      }
+    },
+    {
+      "feature": 2,
+      "main_fwhm_ms": 1.8939319267442898,
+      "narrow_fwhm_ms": 4.094425522200081,
+      "change_percent": 116.18651992621972,
+      "narrow_fit": {
+        "amplitude_V": -0.009347984645688255,
+        "center_ms": -57.8860821709495,
+        "fwhm_ms": 4.094425522200081,
+        "offset_V": 0.005697071471609511,
+        "conditional_standard_errors": {
+          "amplitude_V": 0.0011791390698688083,
+          "center_ms": 0.018526603594892922,
+          "fwhm_ms": 0.40451422518112545,
+          "offset_V": 0.001224172162290259
+        },
+        "dip_guess_ms": -57.97912,
+        "fit_interval_ms": [
+          -60.47076,
+          -55.48748
+        ],
+        "samples": 335,
+        "rmse_V": 0.000864693033815811,
+        "rss_V2": 0.0002504775043144131,
+        "full_fwhm_covered": true,
+        "frequency_fwhm_MHz": null,
+        "warnings": []
+      }
+    },
+    {
+      "feature": 3,
+      "main_fwhm_ms": 1.9548592456863538,
+      "narrow_fwhm_ms": 3.5594679926983375,
+      "change_percent": 82.08308350346745,
+      "narrow_fit": {
+        "amplitude_V": -0.005497543359774509,
+        "center_ms": -43.960231229899826,
+        "fwhm_ms": 3.5594679926983375,
+        "offset_V": 0.0033665008937788783,
+        "conditional_standard_errors": {
+          "amplitude_V": 0.0002231390324652785,
+          "center_ms": 0.015997522599072393,
+          "fwhm_ms": 0.14415672420330417,
+          "offset_V": 0.0002386735563963252
+        },
+        "dip_guess_ms": -44.47652,
+        "fit_interval_ms": [
+          -46.968160000000005,
+          -41.984880000000004
+        ],
+        "samples": 335,
+        "rmse_V": 0.0004627461705599234,
+        "rss_V2": 7.173489615323768e-05,
+        "full_fwhm_covered": true,
+        "frequency_fwhm_MHz": null,
+        "warnings": []
+      }
+    },
+    {
+      "feature": 4,
+      "main_fwhm_ms": 1.8438255131936983,
+      "narrow_fwhm_ms": 5.304745168387412,
+      "change_percent": 187.70320892235839,
+      "narrow_fit": {
+        "amplitude_V": -0.004437970148122626,
+        "center_ms": -31.739469929908452,
+        "fwhm_ms": 5.304745168387412,
+        "offset_V": 0.0034781121857743527,
+        "conditional_standard_errors": {
+          "amplitude_V": 0.0007740269361500666,
+          "center_ms": 0.02477834581753451,
+          "fwhm_ms": 0.6419542922068691,
+          "offset_V": 0.0007906568780201948
+        },
+        "dip_guess_ms": -32.21228,
+        "fit_interval_ms": [
+          -34.70392,
+          -29.72064
+        ],
+        "samples": 335,
+        "rmse_V": 0.00034482627225585746,
+        "rss_V2": 3.9833227942686695e-05,
+        "full_fwhm_covered": false,
+        "frequency_fwhm_MHz": null,
+        "warnings": [
+          "Both fitted half-maximum positions are not covered by this window."
+        ]
+      }
+    }
+  ],
+  "transmission_review": {
+    "window_ms": [
+      -75.0,
+      25.0
+    ],
+    "dip_time_ms": -57.97912,
+    "raw_dip_V": -0.005633333396,
+    "raw_95th_percentile_V": 0.0075333334171,
+    "raw_voltage_ratio": -0.7477876106230519,
+    "ratio_in_physical_range": false,
+    "accepted_as_optical_transmission": false,
+    "number_density_m3": null,
+    "pressure_Pa": null,
+    "reason": "Detector zero and an appropriate incident-intensity reference are unverified; no arbitrary voltage shift or ratio clamp is applied."
+  },
+  "calibration_review": {
+    "accepted_MHz_per_ms": null,
+    "recording_duration_ms": 243.47947999999997,
+    "historical_MHz_per_ms": 137.9993090177456,
+    "historical_mapping_fwhm_MHz": [
+      229.02533421108737,
+      261.36129721735955,
+      269.7692251316682,
+      254.44664677002052
+    ],
+    "measured_ramp_V_per_ms": -0.020000003896945527,
+    "ramp_linear_fit_rmse_V": 1.0564561342222772e-05,
+    "background_coverage_ms": [
+      -91.44408,
+      88.456576
+    ],
+    "historical_full_trace_points_outside_background": 4263,
+    "note": "The historical mapping stretches one assumed frequency span over a recording containing multiple triangular sweeps. Its MHz values are retained only for numerical comparison. The original tuning-curve source is missing."
+  },
+  "uncertainty_note": "Fit errors are residual-scaled covariance estimates conditional on the chosen model and background. Correlated noise, background alignment, model mismatch and calibration uncertainty are not propagated.",
+  "interpretation_note": "The background capture also contains structured dips. Fits describe the difference trace; the no-cell background designation and scan alignment need experimental confirmation before assigning atomic widths.",
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "matplotlib": "3.10.8"
+  }
+}

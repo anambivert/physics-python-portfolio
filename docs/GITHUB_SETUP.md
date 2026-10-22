@@ -1,6 +1,6 @@
 # Use and share the GitHub portfolio
 
-The repository is [anambivert/physics-python-portfolio](https://github.com/anambivert/physics-python-portfolio). Both labs are project folders in this one repository, so its visibility setting applies to both.
+The public repository is [anambivert/physics-python-portfolio](https://github.com/anambivert/physics-python-portfolio). Labs 02, 05 and 06 are project folders in this one repository, so its visibility setting applies to all three.
 
 ## Work locally
 
@@ -28,6 +28,6 @@ Open the relevant project folder, choose **Add file → Upload files**, select t
 
 Open [repository settings](https://github.com/anambivert/physics-python-portfolio/settings). Under **Danger Zone**, choose **Change visibility → Change to public**, then follow GitHub's confirmation prompts through **Make this repository public**. A public repository allows anyone to view and fork its files and history.
 
-After changing visibility, open the repository in a private/incognito browser window without signing in to verify public access. The root README links to both lab projects.
+After changing visibility, open the repository in a private/incognito browser window without signing in to verify public access. The root README links to all included lab projects.
 
 References: [GitHub visibility instructions](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/setting-repository-visibility), [uploading files](https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository).

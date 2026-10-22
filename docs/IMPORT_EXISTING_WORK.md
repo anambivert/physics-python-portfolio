@@ -4,12 +4,13 @@ Start with the files that produced the original analysis. A project is ready to 
 
 ## Files to locate
 
-Lab 02 and Lab 06 are already included with their uploaded source files. The filenames below identify additional material that would extend or complete the archive; they are search clues, not files already present.
+Labs 02, 05 and 06 are already included with their uploaded source files. The material below would extend or complete the analyses; these are future inputs, not files already present.
 
 | Project | Useful original material |
 | --- | --- |
 | Gaussian beam analysis | The 13 TXT inputs referenced by the archived notebook: `25.4mm.txt`, `100mm.txt`, `200mm.txt`; propagation profiles `25.txt` through `200.txt`; `Before.txt` and `After.txt`. Notebook, report, four XLSX profiles and 14 images are already included. |
-| Rubidium spectroscopy | Background-subtraction and fitting scripts; `MokuOscilloscopeData_20251029_144859_HighRes.csv`; `back100offset10hz_20251029_150846_HighRes.csv`; any etalon and narrow-feature traces |
+| Rubidium absorption — Lab 05 | Original etalon tuning curve, detector-zero/reference measurements and confirmation of background wiring. All 25 instrument exports and both notebook input CSVs are already included. |
+| Rubidium spectroscopy — Lab 06 | Verified etalon frequency calibration and experimental notes supporting the selected feature. Notebook, report and all 20 supplied instrument exports are already included. |
 | CMOS image analysis | Original image-analysis script; `cameraTestFile.bmp`; `measurements.xlsx`; saved ROI/profile figures |
 | Computational physics | Original notebooks or scripts for FFTs, spectra, nonlinear roots, ODEs, or Monte Carlo methods |
 

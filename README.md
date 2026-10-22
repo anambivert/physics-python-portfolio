@@ -14,6 +14,16 @@ Four Excel profiles, 14 original images, an archived notebook and the lab report
 
 The supplied Excel profiles give different results from the original notebook's missing TXT inputs. Historical results are preserved and clearly distinguished from the fresh analysis. The code reports sample units while spatial calibration remains unverified.
 
+## Lab 05: Doppler-broadened rubidium absorption
+
+[Explore the project](projects/rubidium-absorption/README.md) · [Read the code](projects/rubidium-absorption/src/analyze.py) · [Run the notebook](projects/rubidium-absorption/notebooks/analysis.ipynb)
+
+![Lab 05 Gaussian fits and residuals](projects/rubidium-absorption/results/reproduced/four-feature-fits.png)
+
+All **25 instrument files**, the original report and an archived notebook accompany a portable analysis of four difference features. The workflow reproduces the original method in time units, checks residuals and window sensitivity, and audits the frequency and transmission assumptions. Ten numerical tests pass.
+
+The original report credits ChatGPT with generating the code. The project preserves that attribution and distinguishes numerical reproduction from unverified physical linewidth, density and pressure claims. See its [analysis review](projects/rubidium-absorption/ANALYSIS_REVIEW.md) and [provenance](projects/rubidium-absorption/PROVENANCE.md).
+
 ## Lab 06: Doppler-free rubidium spectroscopy
 
 [Explore the project](projects/rubidium-spectroscopy/README.md) · [Read the code](projects/rubidium-spectroscopy/src/analyze.py) · [View the notebook](projects/rubidium-spectroscopy/notebooks/lab6-archived.ipynb)
@@ -28,8 +38,9 @@ The uploaded report credits ChatGPT with generating the original notebook code. 
 
 | Project | Focus | Status |
 | --- | --- | --- |
-| [Rubidium spectroscopy](projects/rubidium-spectroscopy/README.md) | Background subtraction, nonlinear fitting, residuals, calibration review | Included and reproduced in time units; frequency calibration under review |
 | [Gaussian beam analysis](projects/gaussian-beam-analysis/README.md) | Gaussian fits, beam expansion, residuals, baseline sensitivity | Four Excel profiles analysed; historical TXT inputs and spatial calibration pending |
+| [Rubidium absorption — Lab 05](projects/rubidium-absorption/README.md) | Four-feature fitting, residuals, window sensitivity, transmission review | Original calculation reproduced; physical interpretation under review |
+| [Rubidium spectroscopy — Lab 06](projects/rubidium-spectroscopy/README.md) | Background subtraction, nonlinear fitting, residuals, calibration review | Included and reproduced in time units; frequency calibration under review |
 | [CMOS image analysis](projects/cmos-image-analysis/README.md) | Image profiles, regions of interest, detector counts | Summary ready; original files pending |
 | [Computational physics](projects/computational-physics/README.md) | Fourier methods, ODEs, nonlinear roots, statistical simulation | Collection outline; original files pending |
 
@@ -42,12 +53,16 @@ python -m pip install -r projects/gaussian-beam-analysis/requirements.txt
 python projects/gaussian-beam-analysis/src/analyze.py --output-dir runs/lab2
 python -m unittest discover -s projects/gaussian-beam-analysis/tests -v
 
+python -m pip install -r projects/rubidium-absorption/requirements.txt
+python projects/rubidium-absorption/src/analyze.py --output-dir runs/lab5
+python -m unittest discover -s projects/rubidium-absorption/tests -v
+
 python -m pip install -r projects/rubidium-spectroscopy/requirements.txt
 python projects/rubidium-spectroscopy/src/analyze.py --output-dir runs/lab6
 python -m unittest discover -s projects/rubidium-spectroscopy/tests -v
 ```
 
-[Environment setup](docs/ENVIRONMENT.md) includes Windows instructions. All inputs for these two command-line workflows are included. The validated environment is Python 3.12.14, NumPy 2.3.5, SciPy 1.17.0, and Matplotlib 3.10.8; Lab 02 also uses openpyxl 3.1.5.
+[Environment setup](docs/ENVIRONMENT.md) includes Windows instructions. All inputs for these three command-line workflows are included. The validated environment is Python 3.12.14, NumPy 2.3.5, SciPy 1.17.0, and Matplotlib 3.10.8; Lab 02 also uses openpyxl 3.1.5.
 
 ## Add future work
 
